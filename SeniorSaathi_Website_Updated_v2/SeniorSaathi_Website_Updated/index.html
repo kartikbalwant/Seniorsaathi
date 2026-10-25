@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#145b4a" />
+  <title>SeniorSaathi | Care that stays connected</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="language-pending">
+  <section class="language-screen" id="languageScreen" aria-labelledby="languageTitle">
+    <div class="language-card">
+      <div class="language-brand"><span class="brand-mark">♥</span><span>Senior<span class="brand-accent">Saathi</span></span></div>
+      <p class="eyebrow">WELCOME · स्वागत है</p>
+      <h1 id="languageTitle">Which language are you comfortable with?</h1>
+      <p class="language-subtitle">आप किस भाषा में बात करना सहज महसूस करते हैं?</p>
+      <div class="language-options" role="group" aria-label="Choose your preferred language">
+        <button type="button" class="language-option" data-language="hi"><strong>हिन्दी</strong><span>Hindi</span></button>
+        <button type="button" class="language-option" data-language="bho"><strong>भोजपुरी</strong><span>Bhojpuri</span></button>
+        <button type="button" class="language-option" data-language="en"><strong>English</strong><span>English</span></button>
+      </div>
+      <p class="language-note">You can change your choice later.</p>
+    </div>
+  </section>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="SeniorSaathi home"><span class="brand-mark">♥</span><span>Senior<span class="brand-accent">Saathi</span><small>Care that stays connected</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">☰ <span class="sr-only">Toggle navigation</span></button>
+    <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+      <a href="#how-it-works">How it works</a><a href="#care">Senior care</a><a href="#pension">Pension help</a><a href="#volunteers">Volunteer</a>
+      <button class="language-change" id="changeLanguage" type="button">🌐 Language</button><button class="font-control" id="fontToggle" type="button" aria-pressed="false">A+ Text</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> PILOT CONCEPT · GHAZIPUR, UTTAR PRADESH</p>
+        <h1>Growing older should never mean <em>being alone.</em></h1>
+        <p class="hero-lead">A friendly voice, a trusted local helper, and clearer guidance for pensions and schemes — designed around older people, not around technology.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#care">Explore senior care <span aria-hidden="true">→</span></a><a class="btn btn-secondary" href="#pension">Get pension guidance</a></div>
+        
+      </div>
+      <span class="hero-image-caption">A community-support example · SeniorSaathi</span>
+    </section>
+
+    <section class="trust-strip" aria-label="Project priorities"><div><span>01</span><strong>Voice-first</strong><small>Simple, spoken guidance</small></div><div><span>02</span><strong>Human support</strong><small>Trusted local volunteers</small></div><div><span>03</span><strong>With consent</strong><small>Respect and privacy first</small></div></section>
+
+    <section class="section" id="how-it-works">
+      <div class="section-heading"><p class="eyebrow">HOW SENIORSAATHI WORKS</p><h2>A little support can make a big difference.</h2><p>SeniorSaathi is a proposed service concept that connects a simple check-in with a clear human response.</p></div>
+      <div class="steps-grid"><article class="step-card"><span class="step-number">1</span><div class="step-icon">☏</div><h3>A simple check-in</h3><p>The senior responds by voice, a simple tap, or a missed call in the planned service.</p></article><article class="step-card"><span class="step-number">2</span><div class="step-icon">♧</div><h3>A trusted person checks</h3><p>If there is no response, the proposed workflow alerts an approved local volunteer to follow up.</p></article><article class="step-card"><span class="step-number">3</span><div class="step-icon">⌂</div><h3>Family can be informed</h3><p>Family notifications happen according to the senior’s consent and configured preferences.</p></article></div>
+    </section>
+
+    <section class="section feature-section" id="care"><div class="feature-copy"><p class="eyebrow">SENIOR CARE</p><h2>Care that feels simple.</h2><p>Large controls and clear language help make everyday support easier to understand.</p><ul class="check-list"><li>Daily wellbeing check-in</li><li>Medicine reminder </li><li>Request a volunteer follow-up</li><li>Emergency guidance</li></ul></div>
+      <div class="demo-panel"><div class="panel-top"><div><span class="panel-kicker">SENIOR CHECK-IN</span><h3>Namaste, Sushila ji</h3></div><span class="avatar">☺</span></div><p class="muted">How are you feeling today?</p><div class="mood-options" role="group" aria-label="Choose how you are feeling"><button class="mood" data-mood="I am feeling well today." type="button"><span>😊</span><strong>I'm well</strong></button><button class="mood" data-mood="I need a little help today." type="button"><span>😐</span><strong>Need help</strong></button><button class="mood" data-mood="I would like someone to check on me." type="button"><span>🙋</span><strong>Check on me</strong></button></div><p class="demo-feedback" id="checkinFeedback" aria-live="polite">Choose an option to try the check-in .</p><div class="medicine-row"><span class="medicine-icon">＋</span><span><strong>Medicine reminder</strong><small>Demo reminder: check your schedule</small></span><button id="medicineButton" class="mini-button" type="button">Mark done</button></div><p class="demo-feedback" id="medicineFeedback" aria-live="polite"></p></div>
+    </section>
+
+    <section class="section pension-section" id="pension"><div class="section-heading"><p class="eyebrow">PENSION & SCHEME ASSISTANCE</p><h2>Help people find the next step.</h2><p>Explore the kind of guidance SeniorSaathi aims to offer. Eligibility and application status must be verified through official services.</p></div>
+      <div class="pension-grid"><article class="pension-card"><span class="pension-icon">₹</span><h3>Pension guidance</h3><p>Learn what information may be needed to ask about an old-age pension or a delayed payment.</p><button class="text-button" data-guide="pension" type="button">View guidance →</button></article><article class="pension-card"><span class="pension-icon">▣</span><h3>Documents & reminders</h3><p>Keep track of questions about bank details, life certificates, and required documents.</p><button class="text-button" data-guide="documents" type="button">View checklist →</button></article><article class="pension-card"><span class="pension-icon">☏</span><h3>Talk to a helper</h3><p>Prepare a request for a trusted volunteer or a Common Service Centre (CSC) visit.</p><button class="text-button" data-guide="helper" type="button">Prepare a request →</button></article></div>
+      <div class="guide-output" id="guideOutput" aria-live="polite"><strong>Guidance will appear here.</strong><p>Select one of the options above to see a simple checklist.</p></div>
+    </section>
+
+    <section class="section volunteer-section" id="volunteers"><div class="volunteer-copy"><p class="eyebrow">COMMUNITY SUPPORT</p><h2>Good technology still needs good people.</h2><p>SeniorSaathi’s proposed pilot would work with verified community volunteers, NGOs, and local partners. A real deployment would need identity checks, training, visit logs, and clear safety rules.</p><a class="btn btn-light" href="#volunteer-form">Register interest</a></div>
+      <form class="volunteer-form" id="volunteer-form"><h3>Volunteer interest form</h3><label for="volName">Your name</label><input id="volName" name="name" autocomplete="name" required placeholder="Enter your name" /><label for="volVillage">Village / area</label><input id="volVillage" name="village" required placeholder="Enter your area" /><label for="volLanguage">Preferred language</label><select id="volLanguage" name="language" required><option value="">Choose a language</option><option>Hindi</option><option>Bhojpuri</option><option>English</option><option>Other</option></select><button class="btn btn-primary btn-full" type="submit">Preview registration</button><p class="form-feedback" id="volFeedback" aria-live="polite"></p></form>
+    </section>
+
+    <section class="safety-banner"><div class="safety-symbol">!</div><div><h2>Need urgent help?</h2><p>Call <strong>112</strong>. For senior-citizen support, the national Elderline number is <strong>14567</strong>; verify current service availability locally.</p></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">♥</span><span>Senior<span class="brand-accent">Saathi</span><small>Yuva Tech · Ghazipur, Uttar Pradesh</small></span></a><p>Proposed pilot concept for elderly care and healthy ageing.</p><p class="footer-small">Illustrative interface only. No real check-ins, medical advice, alerts, applications, or data submission are enabled.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
